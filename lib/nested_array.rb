@@ -41,9 +41,8 @@ def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
   
-
-new_value[1][1]
-new_value
+matrix[row][colum]
+matrix
 end
 
 def matrix_update(matrix, row, column, new_value)
