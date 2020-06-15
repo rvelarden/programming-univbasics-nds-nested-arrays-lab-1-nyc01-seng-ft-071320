@@ -51,4 +51,5 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   spice_rack = matrix
   spice_rack[row][column] = new_value
+  spice_rack
 end
