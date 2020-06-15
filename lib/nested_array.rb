@@ -42,7 +42,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   
 new_value = sorted_matrix[row, column]
-sorted_matrix[row.size][column.size]
+sorted_matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
